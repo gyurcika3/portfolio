@@ -190,8 +190,8 @@ ul li a:hover::before {
   width: 100%;
   min-height: 100%;
   position: relative;
-  
-  background-image: linear-gradient(
+
+  /* background-image: linear-gradient(
     to bottom,
     #565667,
     #606274,
@@ -205,7 +205,7 @@ ul li a:hover::before {
     #c6c7d0,
     #d6d6da,
     #e5e5e5
-  );
+  ); */
 }
 #projects {
   width: 100%;

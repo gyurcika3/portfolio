@@ -15,7 +15,7 @@ window.addEventListener("scroll", function () {
 
 $("#scrolldown").on("click", function () {
   $("html, body").animate(
-    { scrollTop: $("#about").offset().top },
+    { scrollTop: $("#about").offset().top - 50 },
     1000,
     "linear"
   );
@@ -23,7 +23,7 @@ $("#scrolldown").on("click", function () {
 
 $("#heroNav").on("click", function () {
   $("html, body").animate(
-    { scrollTop: $("#about").offset().top },
+    { scrollTop: $("#about").offset().top - 50 },
     1000,
     "linear"
   );
@@ -31,7 +31,7 @@ $("#heroNav").on("click", function () {
 
 $("#projectsNav").on("click", function () {
   $("html, body").animate(
-    { scrollTop: $("#projects").offset().top },
+    { scrollTop: $("#projects").offset().top - 50 },
     1000,
     "linear"
   );
@@ -39,7 +39,7 @@ $("#projectsNav").on("click", function () {
 
 $("#skillsNav").on("click", function () {
   $("html, body").animate(
-    { scrollTop: $("#skills").offset().top },
+    { scrollTop: $("#skills").offset().top - 50 },
     1000,
     "linear"
   );
@@ -47,7 +47,7 @@ $("#skillsNav").on("click", function () {
 
 $("#contactNav").on("click", function () {
   $("html, body").animate(
-    { scrollTop: $("#contact").offset().top },
+    { scrollTop: $("#contact").offset().top - 50 },
     1000,
     "linear"
   );
