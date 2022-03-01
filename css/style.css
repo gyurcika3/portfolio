@@ -78,15 +78,33 @@ section .loader:last-child .dot {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(
+    60deg,
+    #002029,
+    #00303d,
+    #004052,
+    #005066,
+    #00607a,
+    #005066,
+    #004052,
+    #00303d,
+    #002029
+  );
   /* background: linear-gradient(
-    180deg,
-    #14213d,
-    #132041,
-    #1e284e,
-    #2a3056,
-    #343758,
-    #4b4c69,
-    #565667
+    60deg,
+    #002137,
+    #00253e,
+    #002945,
+    #002e4e,
+    #003356,
+    #003a61,
+    #00406c,
+    #003a61,
+    #003356,
+    #002e4e,
+    #002945,
+    #00253e,
+    #002137
   ); */
   /* background: linear-gradient(
     60deg,
@@ -104,7 +122,7 @@ section .loader:last-child .dot {
     #4b4c69,
     #565667
   ); */
-  background: linear-gradient(
+  /* background: linear-gradient(
     60deg,
     #001233,
     #001845,
@@ -117,7 +135,7 @@ section .loader:last-child .dot {
     #002855,
     #001845,
     #001233
-  );
+  ); */
   background-size: 1400% 1400%;
 
   -webkit-animation: AnimationName 15s ease infinite;
@@ -277,7 +295,7 @@ ul li a:hover::before {
   top: 0;
   left: 50%;
   margin-left: -2px;
-  border-right: 2px dashed #4b546f;
+  border-right: 2px dashed #272e48;
   height: 100%;
   display: block;
 }
@@ -333,7 +351,6 @@ ul li a:hover::before {
   border-radius: 100px;
   z-index: 10;
   background: #272e48;
-  border: 2px dashed #4b546f;
 }
 .timeline-row .timeline-content h4 {
   margin: 0 0 20px 0;
@@ -380,7 +397,7 @@ ul li a:hover::before {
   transform: rotate(-135deg);
 }
 .timeline-row:nth-child(even) .timeline-content:before {
-  left: -52px;
+  left: -51px;
   right: initial;
 }
 .timeline-row:nth-child(odd) {
