@@ -92,22 +92,6 @@ section .loader:last-child .dot {
   );
   /* background: linear-gradient(
     60deg,
-    #002137,
-    #00253e,
-    #002945,
-    #002e4e,
-    #003356,
-    #003a61,
-    #00406c,
-    #003a61,
-    #003356,
-    #002e4e,
-    #002945,
-    #00253e,
-    #002137
-  ); */
-  /* background: linear-gradient(
-    60deg,
     #565667,
     #4b4c69,
     #343758,
@@ -121,20 +105,6 @@ section .loader:last-child .dot {
     #343758,
     #4b4c69,
     #565667
-  ); */
-  /* background: linear-gradient(
-    60deg,
-    #001233,
-    #001845,
-    #002855,
-    #023e7d,
-    #0353a4,
-    #045fb9,
-    #0353a4,
-    #023e7d,
-    #002855,
-    #001845,
-    #001233
   ); */
   background-size: 1400% 1400%;
 
