@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="css/util.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="flickity/flickity.css">
   </head>
   <body>
     <section id="loader">
@@ -78,7 +79,7 @@
       <div class="color"></div>
       <div class="color"></div>
       <div class="color"></div>
-      <div class="row text-center"style="z-index:10">
+      <div class="row text-center mt-5">
         <div class="col-12">
         <h1 class="text-white fw-bold mb-3 lh-base">
           Hi, I'm <br /><span class="typed"></span>
@@ -189,8 +190,61 @@
         <p class="text-black px-5">My coding experience started in April 2021 when I signed up for the Coding Traineeship at IT Carreer Switch. The year long Full Stack Development course tought me so much and made me confident that I have the skills and tools to start my career in programming. I'm eager to learn, very motivated and always ready for new challenges.</p>
       </div> -->
     </div>
-
     <div
+    class="px-4 pt-5 d-flex justify-content-around align-items-center text-center"
+    id="projects"
+  >
+    <div class="carousel w-50" data-flickity='{ "autoPlay": true, "wrapAround": true }'>
+      <div class="carousel-cell"><div class="card bg-light ">
+        <img src="img/gazetteer.jpg" class="card-img-top" alt="gazetteer" />
+        <div class="card-body">
+          <h4 class="card-title">Gazetteer</h4>
+          <p class="card-text">
+            A google maps like application providing details of countries, cities and point of interests. <hr> 
+            <h6 class="mb-3">Technologies used</h6> 
+            <div class="pb-3">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30px" width="30px"/>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30px" width="30px"/>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="30px" width="30px"/>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30px" width="30px"/>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" height="30px" width="30px"/>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30px" width="30px"/>
+            </div>
+          </p>
+          <div class="d-flex justify-content-around align-items-center">
+            <a href="https://georgebanlaki.co.uk" target="_blank" class="btn-grad">Demo</a>
+            <a href="https://github.com/georgeBanlaki/georgeBanlaki/tree/master/project1" target="_blank" class="btn-grad">Code</a>
+          </div>
+        </div>
+      </div></div>
+      <div class="carousel-cell">
+        <div class="card bg-light ">
+        <img src="img/gazetteer.jpg" class="card-img-top" alt="gazetteer" />
+        <div class="card-body">
+          <h4 class="card-title">Gazetteer</h4>
+          <p class="card-text">
+            A google maps like application providing details of countries, cities and point of interests. <hr> 
+            <h6 class="mb-3">Technologies used</h6> 
+            <div class="pb-3">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30px" width="30px"/>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30px" width="30px"/>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="30px" width="30px"/>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30px" width="30px"/>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" height="30px" width="30px"/>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30px" width="30px"/>
+            </div>
+          </p>
+          <div class="d-flex justify-content-around align-items-center">
+            <a href="https://georgebanlaki.co.uk" target="_blank" class="btn-grad">Demo</a>
+            <a href="https://github.com/georgeBanlaki/georgeBanlaki/tree/master/project1" target="_blank" class="btn-grad">Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+    </div>
+    <!-- <div
       class="px-4 pt-5 d-flex justify-content-around align-items-center text-center"
       id="projects"
     >
@@ -246,7 +300,7 @@
         </div>
       </div>
       
-    </div>
+    </div> -->
     
     <div id="skills" class="px-4 d-flex justify-content-around align-items-center text-center">
       <div class="container w-100 bg-light h-auto rounded" data-aos="flip-up" data-aos-duration="800">
@@ -376,6 +430,7 @@
         loop: true,
       });
     </script>
+    <script src="flickity/flickity.pkgd.min.js"></script>
     
   </body>
 </html>
