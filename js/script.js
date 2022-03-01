@@ -7,10 +7,11 @@ let nav = document.querySelector("nav");
 
 window.addEventListener("scroll", function () {
   if (window.pageYOffset > 300) {
-    nav.classList.add("bg-dark", "shadow");
-    $("nav").attr("style", "transition: .5s;");
+    nav.classList.add("shadow");
+    $("nav").attr("style", "transition: .5s; background-color: #002029;");
   } else {
-    nav.classList.remove("bg-dark", "shadow");
+    nav.classList.remove("shadow");
+    $("nav").removeAttr("style", "background-color: #002029;");
     $("nav").attr("style", "transition: .5s;");
   }
 });
