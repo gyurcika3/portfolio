@@ -279,7 +279,7 @@ ul li a:hover::before {
   top: 15px;
   text-align: right;
   margin-right: 20px;
-  color: #bcd0f7;
+  color: #1a233a;
   font-size: 1.5rem;
 }
 .timeline-row .timeline-time small {
@@ -339,7 +339,7 @@ ul li a:hover::before {
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
-  background: #272e48;
+  background: #f5f6ff;
   margin-bottom: 10px;
   display: inline-block;
 }
