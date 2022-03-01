@@ -18,7 +18,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #001300;
+  background: #002029;
   animation: changeColor 5s linear infinite;
   z-index: 2000;
 }
@@ -32,9 +32,8 @@ section {
 }
 section h2 {
   color: #fff;
-  font-family: consolas;
+
   font-weight: 300;
-  letter-spacing: 10px;
 }
 
 section .loader {
@@ -265,7 +264,7 @@ ul li a:hover::before {
   top: 0;
   left: 50%;
   margin-left: -2px;
-  border-right: 2px dashed #272e48;
+  border-right: 2px dashed #002029;
   height: 100%;
   display: block;
 }
@@ -281,7 +280,7 @@ ul li a:hover::before {
   top: 15px;
   text-align: right;
   margin-right: 20px;
-  color: #1a233a;
+  color: #002029;
   font-size: 1.5rem;
 }
 .timeline-row .timeline-time small {
@@ -291,7 +290,7 @@ ul li a:hover::before {
 .timeline-row .timeline-content {
   position: relative;
   padding: 20px 30px;
-  background: #1a233a;
+  background: #002029;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -307,7 +306,7 @@ ul li a:hover::before {
   top: 20px;
   height: 16px;
   width: 16px;
-  background: #1a233a;
+  background: #002029;
 }
 .timeline-row .timeline-content:before {
   content: "";
@@ -320,7 +319,7 @@ ul li a:hover::before {
   -moz-border-radius: 100px;
   border-radius: 100px;
   z-index: 10;
-  background: #272e48;
+  background: #002029;
 }
 .timeline-row .timeline-content h4 {
   margin: 0 0 20px 0;
