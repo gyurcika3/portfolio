@@ -15,8 +15,9 @@
     <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
     <link rel="stylesheet" type="text/css" href="css/util.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="flickity/flickity.css">
+    <link rel="stylesheet" href="css/style.css" />
+    
   </head>
   <body>
     <section id="loader">
@@ -175,11 +176,7 @@
         
             
         
-            <div class="timeline-row aos-init aos-animate" data-aos="slide-left" data-aos-duration="800">
-              <div class="timeline-content">
-                <p class="m-0">Present day...</p>
-              </div>
-            </div>
+            
         
           </div>
         </div>
@@ -191,11 +188,12 @@
       </div> -->
     </div>
     <div
-    class="px-4 pt-5 d-flex justify-content-around align-items-center text-center"
+    class="d-flex justify-content-around align-items-center text-center"
     id="projects"
   >
-    <div class="carousel w-50" data-flickity='{ "autoPlay": true, "wrapAround": true }'>
-      <div class="carousel-cell"><div class="card bg-light ">
+    <div class="carousel" id="carousel" data-flickity='{ "autoPlay": true, "wrapAround": true }'>
+      <div class="carousel-cell ">
+        <div class="card bg-light border-white rounded">
         <img src="img/gazetteer.jpg" class="card-img-top" alt="gazetteer" />
         <div class="card-body">
           <h4 class="card-title">Gazetteer</h4>
@@ -218,7 +216,7 @@
         </div>
       </div></div>
       <div class="carousel-cell">
-        <div class="card bg-light ">
+        <div class="card bg-light rounded">
         <img src="img/gazetteer.jpg" class="card-img-top" alt="gazetteer" />
         <div class="card-body">
           <h4 class="card-title">Gazetteer</h4>

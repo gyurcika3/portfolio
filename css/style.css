@@ -225,6 +225,10 @@ ul li a:hover::before {
   -moz-animation: AnimationName 15s ease infinite;
   animation: AnimationName 15s ease infinite;
 }
+.carousel {
+  width: 50vw !important;
+  height: auto;
+}
 
 .btn-grad {
   background-image: linear-gradient(
@@ -491,6 +495,10 @@ ul li a:hover::before {
     width: 50px;
     height: 50px;
   }
+  .carousel {
+    width: 75vw !important;
+    height: auto;
+  }
 }
 @media only screen and (max-width: 768px) {
   ul li a {
@@ -502,6 +510,13 @@ ul li a:hover::before {
     width: 250px;
     height: auto;
   }
+  .carousel {
+    width: 80vw !important;
+    height: auto;
+  }
+  .flickity-button {
+    display: none;
+  }
 
   #border-right {
     border-right: none !important;
@@ -511,6 +526,13 @@ ul li a:hover::before {
   ul li a {
     width: 30px;
     height: 30px;
+  }
+  .carousel {
+    width: 90vw !important;
+    height: auto;
+  }
+  .navbar-collapse {
+    margin-bottom: 20px;
   }
 }
 
