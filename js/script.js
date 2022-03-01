@@ -6,10 +6,12 @@ $(window).on("load", function () {
 let nav = document.querySelector("nav");
 
 window.addEventListener("scroll", function () {
-  if (window.pageYOffset > 700) {
+  if (window.pageYOffset > 300) {
     nav.classList.add("bg-dark", "shadow");
+    $("nav").attr("style", "transition: .5s;");
   } else {
     nav.classList.remove("bg-dark", "shadow");
+    $("nav").attr("style", "transition: .5s;");
   }
 });
 

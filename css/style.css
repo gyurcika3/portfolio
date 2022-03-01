@@ -78,8 +78,24 @@ section .loader:last-child .dot {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
+    #14213d,
+    #132041,
+    #1e284e,
+    #2a3056,
+    #343758,
+    #4b4c69,
+    #565667
+  ); */
+  background: linear-gradient(
+    60deg,
+    #565667,
+    #4b4c69,
+    #343758,
+    #2a3056,
+    #1e284e,
+    #132041,
     #14213d,
     #132041,
     #1e284e,
@@ -90,51 +106,41 @@ section .loader:last-child .dot {
   );
   background-size: 1400% 1400%;
 
-  -webkit-animation: AnimationName 13s ease infinite;
-  -moz-animation: AnimationName 13s ease infinite;
-  animation: AnimationName 13s ease infinite;
-  /* background: linear-gradient(
-    to bottom,
-    #14213d,
-    #19233e,
-    #1e253f,
-    #262a41,
-    #36384d,
-    #46475a,
-    #565667
-  ); */
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
 }
 @-webkit-keyframes AnimationName {
   0% {
-    background-position: 50% 0%;
+    background-position: 0% 90%;
   }
   50% {
-    background-position: 51% 100%;
+    background-position: 100% 11%;
   }
   100% {
-    background-position: 50% 0%;
+    background-position: 0% 90%;
   }
 }
 @-moz-keyframes AnimationName {
   0% {
-    background-position: 50% 0%;
+    background-position: 0% 90%;
   }
   50% {
-    background-position: 51% 100%;
+    background-position: 100% 11%;
   }
   100% {
-    background-position: 50% 0%;
+    background-position: 0% 90%;
   }
 }
 @keyframes AnimationName {
   0% {
-    background-position: 50% 0%;
+    background-position: 0% 90%;
   }
   50% {
-    background-position: 51% 100%;
+    background-position: 100% 11%;
   }
   100% {
-    background-position: 50% 0%;
+    background-position: 0% 90%;
   }
 }
 
@@ -150,8 +156,8 @@ ul li {
 }
 ul li a {
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 55px;
+  height: 55px;
   display: inline-block;
   border-radius: 10px;
   display: flex;
@@ -190,10 +196,9 @@ ul li a:hover::before {
   width: 100%;
   height: auto;
   position: relative;
-  background-color: #ddddff;
 }
 #timelineContainer {
-  max-width: 90%;
+  width: 100%;
 }
 #projects {
   width: 100%;
@@ -247,10 +252,7 @@ ul li a:hover::before {
 }
 .timeline {
   position: relative;
-  background: #272e48;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  background-color: #f5f6ff;
   padding: 5rem;
   margin: 0 auto 1rem auto;
   overflow: hidden;
@@ -437,13 +439,13 @@ ul li a:hover::before {
   ul li a {
     width: 50px;
     height: 50px;
-    font-size: 0.875em;
   }
 }
 @media only screen and (max-width: 768px) {
   ul li a {
     width: 40px;
     height: 40px;
+    font-size: 0.875em;
   }
   #georgeImg {
     width: 250px;
