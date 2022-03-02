@@ -312,7 +312,7 @@ ul li a:hover::before {
 #skills {
   width: 100%;
   min-height: 100%;
-  background: #004052;
+  background-image: linear-gradient(180deg, #004052, #005066, #00607a);
 }
 #progress {
   width: 75%;
