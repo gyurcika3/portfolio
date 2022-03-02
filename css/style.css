@@ -312,15 +312,14 @@ ul li a:hover::before {
 #skills {
   width: 100%;
   min-height: 100%;
-  background: #009bff;
-  background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
-  background: -o-linear-gradient(left, #0072ff, #00c6ff);
-  background: -moz-linear-gradient(left, #0072ff, #00c6ff);
-  background: linear-gradient(left, #0072ff, #00c6ff);
+  background: #004052;
+}
+#progress {
+  width: 75%;
 }
 
 .progress2 {
-  background: rgba(0, 0, 0, 0.1);
+  background: #002029;
   justify-content: flex-start;
   border-radius: 100px;
   align-items: center;
@@ -333,14 +332,9 @@ ul li a:hover::before {
 
 .progress-value2 {
   animation: load 4s normal forwards;
-  box-shadow: 0 10px 40px -10px #fff;
+  box-shadow: 0 10px 40px -10px #002029;
   border-radius: 100px;
-  background: linear-gradient(
-    90deg,
-    rgb(6 0 114) 0%,
-    rgba(0 0 181) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(60deg, #1e6b9b, #3c83c5, #ffffff);
   height: 25px;
   width: 0;
 }
@@ -363,7 +357,7 @@ ul li a:hover::before {
   top: 0;
   left: 50%;
   margin-left: -2px;
-  border-right: 2px dashed #004052;
+  border-right: 2px solid #004052;
   height: 100%;
   display: block;
 }
@@ -561,6 +555,9 @@ ul li a:hover::before {
   .flickity-button {
     display: none;
   }
+  #progress {
+    width: 90%;
+  }
 
   #border-right {
     border-right: none !important;
@@ -577,6 +574,9 @@ ul li a:hover::before {
   }
   .navbar-collapse {
     margin-bottom: 20px;
+  }
+  #progress {
+    width: 100%;
   }
 }
 
