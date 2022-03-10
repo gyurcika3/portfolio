@@ -6,18 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>George Banlaki</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-    
+
     <link href="fontawesome/css/fontawesome.min.css" rel="stylesheet" />
     <link href="fontawesome/css/all.min.css" rel="stylesheet" />
-    
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    
+
     <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
     <link rel="stylesheet" type="text/css" href="css/util.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" href="flickity/flickity.css">
+    <link rel="stylesheet" href="flickity/flickity.css" />
     <link rel="stylesheet" href="css/style.css" />
-    
   </head>
   <body>
     <section id="loader">
@@ -47,318 +46,530 @@
         <div class="dot" style="--i: 9"></div>
       </div>
     </section>
-<div id="wrapper">
-    <nav class="navbar navbar-expand-sm navbar-dark fixed-top ">
-      <div class="container-fluid">
-        <a href="#" class="navbar-brand"><img src="img/GB-white.svg" alt="logo" width="100px" height="auto"></a>
-        <button
-          type="button"
-          class="navbar-toggler"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse"
-          aria-expanded="false"
-          aria-label="Toggle Navbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse flex-row-reverse"
-          id="navbarCollapse"
-        >
-          <div class="navbar-nav text-center text-white">
-            <a href="#about" data-scroll="#about" id="heroNav"class="nav-item nav-link text-white">About</a>
-            <a href="#projects" data-scroll="#projects" id="projectsNav"class="nav-item nav-link text-white">Projects</a>
-            <a href="#skills" data-scroll="#skills" id="skillsNav"class="nav-item nav-link text-white">Skills</a>
-            <a href="#contact" data-scroll="#contact" id="contactNav"class="nav-item nav-link text-white">Contact</a>
+    <div id="wrapper">
+      <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand"
+            ><img src="img/GB-white.svg" alt="logo" width="100px" height="auto"
+          /></a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle Navbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse flex-row-reverse"
+            id="navbarCollapse"
+          >
+            <div class="navbar-nav text-center text-white">
+              <a
+                href="#about"
+                data-scroll="#about"
+                id="heroNav"
+                class="nav-item nav-link text-white"
+                >About</a
+              >
+              <a
+                href="#projects"
+                data-scroll="#projects"
+                id="projectsNav"
+                class="nav-item nav-link text-white"
+                >Projects</a
+              >
+              <a
+                href="#skills"
+                data-scroll="#skills"
+                id="skillsNav"
+                class="nav-item nav-link text-white"
+                >Skills</a
+              >
+              <a
+                href="#contact"
+                data-scroll="#contact"
+                id="contactNav"
+                class="nav-item nav-link text-white"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div id="glass">
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="row text-center mt-5">
+          <div class="col-12">
+            <h1 class="text-white fw-bold mb-3 lh-base">
+              Hi, I'm <br /><span class="typed"></span>
+            </h1>
+            <p class="text-white mb-5">
+              a full-stack web developer based in London.
+            </p>
+            <ul class="p-0 mb-5 d-flex justify-content-center text-center">
+              <li>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              </li>
+            </ul>
+            <span class="text-white" id="scrolldown"
+              ><i
+                class="fa-solid fa-chevron-down fa-xl fa-bounce"
+                style="
+                  --fa-bounce-start-scale-x: 1;
+                  --fa-bounce-start-scale-y: 1;
+                  --fa-bounce-jump-scale-x: 1;
+                  --fa-bounce-jump-scale-y: 1;
+                  --fa-bounce-land-scale-x: 1;
+                  --fa-bounce-land-scale-y: 1;
+                  --fa-bounce-rebound: 0;
+                "
+              ></i
+            ></span>
           </div>
         </div>
       </div>
-    </nav>
 
-    <div id="glass">
-      <div class="color"></div>
-      <div class="color"></div>
-      <div class="color"></div>
-      <div class="row text-center mt-5">
-        <div class="col-12">
-        <h1 class="text-white fw-bold mb-3 lh-base">
-          Hi, I'm <br /><span class="typed"></span>
-        </h1>
-        <p class="text-white mb-5">a full stack web developer based in London.</p>
-        <ul class="p-0 mb-5 d-flex justify-content-center text-center">
-          <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-          <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-          <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-          <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-          <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
-        </ul>
-        <span class="text-white" id="scrolldown"><i class="fa-solid fa-chevron-down fa-xl fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0;"></i></span>
-      </div>
-      </div>
-    </div>
-    
-    
-    <div class="row d-flex m-0 justify-content-around align-items-center text-center" id="about">
-      <div class="container p-0 m-0" id="timelineContainer">
-        <div class="timeline m-0 rounded-0">
-            <div class="timeline-row aos-init aos-animate" data-aos="slide-right" data-aos-duration="800">
-              <div class="timeline-time">
-                2021<small>April</small>
-              </div>
+      <div
+        class="row d-flex m-0 justify-content-around align-items-center text-center"
+        id="about"
+      >
+        <div class="container p-0 m-0" id="timelineContainer">
+          <div class="timeline m-0 rounded-0">
+            <div
+              class="timeline-row aos-init aos-animate"
+              data-aos="slide-right"
+              data-aos-duration="800"
+            >
+              <div class="timeline-time">2021<small>April</small></div>
               <div class="timeline-content">
                 <i class="icon-attachment"></i>
                 <h4 class="text-white">IT Carreer Switch</h4>
-                <p class="text-white">Started the Full-Stack Developer Coding Traineeship with IT Carreer Switch.</p>
+                <p class="text-white">
+                  Started the Full-Stack Developer Coding Traineeship with IT
+                  Carreer Switch.
+                </p>
                 <div class="thumbs">
                   <div class="logo_container bg-white rounded">
                     <a href="https://itcareerswitch.co.uk/" target="_blank">
-                    <img src="https://itcareerswitch.co.uk/wp-content/uploads/2021/07/IT-Career-Switch-black-logo.png" alt="itcareerswitch" width="70px" height="auto">
+                      <img
+                        src="https://itcareerswitch.co.uk/wp-content/uploads/2021/07/IT-Career-Switch-black-logo.png"
+                        alt="itcareerswitch"
+                        width="70px"
+                        height="auto"
+                      />
                     </a>
-                  </div>                
+                  </div>
                 </div>
               </div>
             </div>
-        
-            <div class="timeline-row aos-init aos-animate" data-aos="slide-left" data-aos-duration="800">
-              <div class="timeline-time">
-                2022<small>January</small>
-              </div>
+
+            <div
+              class="timeline-row aos-init aos-animate"
+              data-aos="slide-left"
+              data-aos-duration="800"
+            >
+              <div class="timeline-time">2022<small>January</small></div>
               <div class="timeline-content">
                 <i class="icon-attachment"></i>
                 <h4 class="text-white">IT Carreer Switch</h4>
-                <p class="text-white">Passed the official Microsoft 98-383 exam.</p>
+                <p class="text-white">
+                  Passed the official Microsoft 98-383 exam.
+                </p>
                 <div class="thumbs">
                   <div class="logo_container">
-                    <a href="https://www.credly.com/badges/20dd5619-b3bf-4a3c-b16b-d34c409d7f24/public_url" target="_blank">
-                      <img class="rounded" src="img/badge.png" alt="microsoft exam badge" width="70px" height="auto">
+                    <a
+                      href="https://www.credly.com/badges/20dd5619-b3bf-4a3c-b16b-d34c409d7f24/public_url"
+                      target="_blank"
+                    >
+                      <img
+                        class="rounded"
+                        src="img/badge.png"
+                        alt="microsoft exam badge"
+                        width="70px"
+                        height="auto"
+                      />
                     </a>
-                  </div>                
+                  </div>
                 </div>
               </div>
             </div>
-        
-            <div class="timeline-row aos-init aos-animate" data-aos="slide-right" data-aos-duration="800">
-              <div class="timeline-time">
-                2022<small>February</small>
-              </div>
+
+            <div
+              class="timeline-row aos-init aos-animate"
+              data-aos="slide-right"
+              data-aos-duration="800"
+            >
+              <div class="timeline-time">2022<small>February</small></div>
               <div class="timeline-content">
                 <i class="icon-attachment"></i>
                 <h4 class="text-white">IT Carreer Switch</h4>
-                <p class="text-white">Completed the first of two Portfolio Projects, Gazetteer.</p>
-                
+                <p class="text-white">
+                  Completed the first of two Portfolio Projects, Gazetteer.
+                </p>
               </div>
             </div>
-        
-            <div class="timeline-row aos-init aos-animate" data-aos="slide-left" data-aos-duration="800">
-              <div class="timeline-time">
-                2022<small>March</small>
-              </div>
+
+            <div
+              class="timeline-row aos-init aos-animate"
+              data-aos="slide-left"
+              data-aos-duration="800"
+            >
+              <div class="timeline-time">2022<small>March</small></div>
               <div class="timeline-content">
                 <i class="icon-attachment"></i>
                 <h4 class="text-white">IT Carreer Switch</h4>
-                <p class="text-white text-center">Completed the second Portfolio Project, Company Directory.</p>
-                
+                <p class="text-white text-center">
+                  Completed the second Portfolio Project, Company Directory.
+                </p>
               </div>
             </div>
-        
-            <div class="timeline-row aos-init aos-animate" data-aos="slide-right" data-aos-duration="800">
-              <div class="timeline-time">
-                2022<small>April</small>
-              </div>
+
+            <div
+              class="timeline-row aos-init aos-animate"
+              data-aos="slide-right"
+              data-aos-duration="800"
+            >
+              <div class="timeline-time">2022<small>April</small></div>
               <div class="timeline-content">
                 <i class="icon-attachment"></i>
                 <h4 class="text-white">IT Carreer Switch</h4>
-                <p class="text-white">Completed the Full-Stack Developer Coding Traineeship Course with IT Carreer Switch.</p>
-                
+                <p class="text-white">
+                  Completed the Full-Stack Developer Coding Traineeship Course
+                  with IT Carreer Switch.
+                </p>
               </div>
             </div>
-        
-            
-        
-            
-        
           </div>
         </div>
-      <!-- <div class="col-md-6 border-secondary border-end" id="border-right">
+        <!-- <div class="col-md-6 border-secondary border-end" id="border-right">
         <img class="rounded" id="georgeImg" src="img/george.jpg" alt="George Banlaki" width="350px" height="auto">
       </div>
       <div class="col-md-6">
         <p class="text-black px-5">My coding experience started in April 2021 when I signed up for the Coding Traineeship at IT Carreer Switch. The year long Full Stack Development course tought me so much and made me confident that I have the skills and tools to start my career in programming. I'm eager to learn, very motivated and always ready for new challenges.</p>
       </div> -->
-    </div>
-    <div
-    class="d-flex justify-content-around align-items-center text-center"
-    id="projects"
-  >
-  <div class="d-flex justify-content-around align-items-center text-center " id="projectBg">
-    
-    <div class="carousel" id="carousel" data-flickity='{ "autoPlay": true, "wrapAround": true }'>
-      <div class="carousel-cell ">
-        <div class="card border-white rounded">
-        <img src="img/gazetteer.jpg" class="card-img-top" alt="gazetteer" />
-        <div class="card-body">
-          <h4 class="card-title">Gazetteer</h4>
-          <p class="card-text">
-            A single-page gazetteer web application that provides various information on the currently selected country such as major cities and airports, point of interests, weather forecast, currency exchange rates, news, national holidays, wikipedia summary and Covid statistics.<hr> 
-            <h6 class="mb-3">Technologies used</h6> 
-            <div class="pb-3">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30px" width="30px"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30px" width="30px"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="30px" width="30px"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30px" width="30px"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" height="30px" width="30px"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30px" width="30px"/>
+      </div>
+      <div
+        class="d-flex justify-content-around align-items-center text-center"
+        id="projects"
+      >
+        <div
+          class="d-flex justify-content-around align-items-center text-center"
+          id="projectBg"
+        >
+          <div
+            class="carousel"
+            id="carousel"
+            data-flickity='{ "autoPlay": true, "wrapAround": true }'
+          >
+            <div class="carousel-cell">
+              <div class="card border-white rounded">
+                <img
+                  src="img/gazetteer.png"
+                  class="card-img-top"
+                  alt="gazetteer"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Gazetteer</h4>
+                  <p class="card-text">
+                    A single-page gazetteer web application that provides
+                    various information on the currently selected country such
+                    as major cities and airports, point of interests, weather
+                    forecast, currency exchange rates, news, national holidays,
+                    wikipedia summary and Covid statistics.
+                  </p>
+                  <hr />
+                  <h6 class="mb-3">Technologies used</h6>
+                  <div class="pb-3">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                      height="30px"
+                      width="30px"
+                    />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                      height="30px"
+                      width="30px"
+                    />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                      height="30px"
+                      width="30px"
+                    />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                      height="30px"
+                      width="30px"
+                    />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"
+                      height="30px"
+                      width="30px"
+                    />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                      height="30px"
+                      width="30px"
+                    />
+                  </div>
+
+                  <div class="d-flex justify-content-around align-items-center">
+                    <a
+                      href="https://georgebanlaki.co.uk"
+                      target="_blank"
+                      class="btn-grad"
+                      >Live</a
+                    >
+                    <a
+                      href="https://github.com/georgeBanlaki/georgeBanlaki/tree/master/project1"
+                      target="_blank"
+                      class="btn-grad"
+                      >Code</a
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
-          </p>
-          <div class="d-flex justify-content-around align-items-center">
-            <a href="https://georgebanlaki.co.uk" target="_blank" class="btn-grad">Live</a>
-            <a href="https://github.com/georgeBanlaki/georgeBanlaki/tree/master/project1" target="_blank" class="btn-grad">Code</a>
-          </div>
-        </div>
-      </div></div>
-      <div class="carousel-cell">
-        <div class="card rounded">
-        <img src="img/gazetteer.jpg" class="card-img-top" alt="gazetteer" />
-        <div class="card-body">
-          <h4 class="card-title">Gazetteer</h4>
-          <p class="card-text">
-            A single-page gazetteer web application that provides various information on the currently selected country such as major cities and airports, point of interests, weather forecast, currency exchange rates, news, national holidays, wikipedia summary and Covid statistics.<hr> 
-            <h6 class="mb-3">Technologies used</h6> 
-            <div class="pb-3">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30px" width="30px"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30px" width="30px"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="30px" width="30px"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30px" width="30px"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" height="30px" width="30px"/>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30px" width="30px"/>
+            <div class="carousel-cell">
+              <div class="card rounded">
+                <img
+                  src="img/company.png"
+                  class="card-img-top"
+                  alt="company directory"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Company Directory</h4>
+                  <p class="card-text">
+                    A single-page company directory web application that allow
+                    users to interact with a back-end SQL database through a
+                    user-friendly interface. Functionalities include adding and
+                    removing employees/departments/locations, editing existing
+                    ones, search, filter and sort.
+                  </p>
+                  <hr />
+                  <h6 class="mb-3">Technologies used</h6>
+                  <div class="pb-3">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                      height="30px"
+                      width="30px"
+                    />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                      height="30px"
+                      width="30px"
+                    />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                      height="30px"
+                      width="30px"
+                    />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                      height="30px"
+                      width="30px"
+                    />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"
+                      height="30px"
+                      width="30px"
+                    />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                      height="30px"
+                      width="30px"
+                    />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+                      height="30px"
+                      width="30px"
+                    />
+                  </div>
+
+                  <div class="d-flex justify-content-around align-items-center">
+                    <a
+                      href="https://georgebanlaki.co.uk"
+                      target="_blank"
+                      class="btn-grad"
+                      >Live</a
+                    >
+                    <a
+                      href="https://github.com/georgeBanlaki/georgeBanlaki/tree/master/project2"
+                      target="_blank"
+                      class="btn-grad"
+                      >Code</a
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
-          </p>
-          <div class="d-flex justify-content-around align-items-center">
-            <a href="https://georgebanlaki.co.uk" target="_blank" class="btn-grad">Live</a>
-            <a href="https://github.com/georgeBanlaki/georgeBanlaki/tree/master/project1" target="_blank" class="btn-grad">Code</a>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-    </div>
-    </div>
-    
-    
-    <div id="skills" class="px-4 d-flex justify-content-around align-items-center text-center text-white">
-      <div class="container h-auto rounded" id="progress">
-        <div class="section-title">
-          <h2 class="pt-4">Skills</h2>
-          <br>
-          <hr>
-          <br>
-        </div>
-        <div class="row skills-content py-4 px-4">
 
-          <div class="col-lg-6" data-aos="slide-up" data-aos-duration="800">
-            <div class="d-flex">
-              <h6 class="text-start w-50">HTML</h6>
-              <h6 class="text-end w-50"><i class="val ">90%</i></h6>
+      <div
+        id="skills"
+        class="px-4 d-flex justify-content-around align-items-center text-center text-white"
+      >
+        <div class="container h-auto rounded" id="progress">
+          <div class="section-title">
+            <h2 class="pt-4">Skills</h2>
+            <br />
+            <hr />
+            <br />
+          </div>
+          <div class="row skills-content py-4 px-4">
+            <div class="col-lg-6" data-aos="slide-up" data-aos-duration="800">
+              <div class="d-flex">
+                <h6 class="text-start w-50">HTML</h6>
+                <h6 class="text-end w-50"><i class="val">90%</i></h6>
               </div>
               <div class="progress2 mb-4">
                 <div class="progress-value2" style="width: 90%"></div>
-             </div>
-            <div class="d-flex">
-              <h6 class="text-start w-50">CSS</h6>
-              <h6 class="text-end w-50"><i class="val ">75%</i></h6>
+              </div>
+              <div class="d-flex">
+                <h6 class="text-start w-50">CSS</h6>
+                <h6 class="text-end w-50"><i class="val">75%</i></h6>
               </div>
               <div class="progress2 mb-4">
                 <div class="progress-value2" style="width: 75%"></div>
-             </div>
-            <div class="d-flex">
-              <h6 class="text-start w-50">Bootstrap</h6>
-              <h6 class="text-end w-50"><i class="val ">75%</i></h6>
+              </div>
+              <div class="d-flex">
+                <h6 class="text-start w-50">Bootstrap</h6>
+                <h6 class="text-end w-50"><i class="val">75%</i></h6>
               </div>
               <div class="progress2 mb-4">
                 <div class="progress-value2" style="width: 75%"></div>
-             </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="slide-up" data-aos-duration="800">
-            <div class="d-flex">
-            <h6 class="text-start w-50">JavaScript</h6>
-            <h6 class="text-end w-50"><i class="val ">70%</i></h6>
+              </div>
             </div>
-            <div class="progress2 mb-4">
-              <div class="progress-value2" style="width: 70%"></div>
-           </div>
-          
-            <div class="d-flex">
-              <h6 class="text-start w-50">PHP</h6>
-              <h6 class="text-end w-50"><i class="val ">60%</i></h6>
+
+            <div class="col-lg-6" data-aos="slide-up" data-aos-duration="800">
+              <div class="d-flex">
+                <h6 class="text-start w-50">JavaScript</h6>
+                <h6 class="text-end w-50"><i class="val">70%</i></h6>
+              </div>
+              <div class="progress2 mb-4">
+                <div class="progress-value2" style="width: 70%"></div>
+              </div>
+
+              <div class="d-flex">
+                <h6 class="text-start w-50">PHP</h6>
+                <h6 class="text-end w-50"><i class="val">60%</i></h6>
               </div>
               <div class="progress2 mb-4">
                 <div class="progress-value2" style="width: 60%"></div>
-             </div>
-            <div class="d-flex">
-              <h6 class="text-start w-50">Photoshop</h6>
-              <h6 class="text-end w-50"><i class="val ">45%</i></h6>
+              </div>
+              <div class="d-flex">
+                <h6 class="text-start w-50">Photoshop</h6>
+                <h6 class="text-end w-50"><i class="val">45%</i></h6>
               </div>
               <div class="progress2 mb-4">
                 <div class="progress-value2" style="width: 45%"></div>
-             </div>
-
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact1" id="contact">
+        <div class="container-contact1">
+          <div class="contact1-pic js-tilt" data-tilt>
+            <img src="images/img-01.png" alt="IMG" />
           </div>
 
-        </div>
+          <form
+            action="contact.php"
+            method="POST"
+            class="contact1-form validate-form"
+          >
+            <span class="contact1-form-title"> Get in touch </span>
 
+            <div
+              class="wrap-input1 validate-input"
+              data-validate="Name is required"
+            >
+              <input
+                class="input1"
+                type="text"
+                name="name"
+                placeholder="Name"
+              />
+              <span class="shadow-input1"></span>
+            </div>
+
+            <div
+              class="wrap-input1 validate-input"
+              data-validate="Valid email is required: ex@abc.xyz"
+            >
+              <input
+                class="input1"
+                type="text"
+                name="email"
+                placeholder="Email"
+              />
+              <span class="shadow-input1"></span>
+            </div>
+
+            <div
+              class="wrap-input1 validate-input"
+              data-validate="Subject is required"
+            >
+              <input
+                class="input1"
+                type="text"
+                name="subject"
+                placeholder="Subject"
+              />
+              <span class="shadow-input1"></span>
+            </div>
+
+            <div
+              class="wrap-input1 validate-input"
+              data-validate="Message is required"
+            >
+              <textarea
+                class="input1"
+                name="message"
+                placeholder="Message"
+              ></textarea>
+              <span class="shadow-input1"></span>
+            </div>
+
+            <div class="container-contact1-form-btn">
+              <button class="contact1-form-btn">
+                <span>
+                  Send Email
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
-    <div class="contact1" id="contact">
-      <div class="container-contact1">
-        <div class="contact1-pic js-tilt" data-tilt>
-          <img src="images/img-01.png" alt="IMG">
-        </div>
-  
-        <form action="contact.php" method="POST"class="contact1-form validate-form">
-          <span class="contact1-form-title">
-            Get in touch
-          </span>
-  
-          <div class="wrap-input1 validate-input" data-validate = "Name is required">
-            <input class="input1" type="text" name="name" placeholder="Name">
-            <span class="shadow-input1"></span>
-          </div>
-  
-          <div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-            <input class="input1" type="text" name="email" placeholder="Email">
-            <span class="shadow-input1"></span>
-          </div>
-  
-          <div class="wrap-input1 validate-input" data-validate = "Subject is required">
-            <input class="input1" type="text" name="subject" placeholder="Subject">
-            <span class="shadow-input1"></span>
-          </div>
-  
-          <div class="wrap-input1 validate-input" data-validate = "Message is required">
-            <textarea class="input1" name="message" placeholder="Message"></textarea>
-            <span class="shadow-input1"></span>
-          </div>
-  
-          <div class="container-contact1-form-btn">
-            <button class="contact1-form-btn">
-              <span>
-                Send Email
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </span>
-            </button>
-          </div>
-        </form>
-      </div>
-    </div> 
-  </div>
-    
+
     <script src="jquery/jquery-3.6.0.min.js"></script>
     <script src="bootstrap/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-    
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
@@ -378,6 +589,5 @@
       });
     </script>
     <script src="flickity/flickity.pkgd.min.js"></script>
-    
   </body>
 </html>
