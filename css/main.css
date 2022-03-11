@@ -128,7 +128,23 @@ iframe {
   width: 100%;
   min-height: 100%;
   padding: 15px;
-  background-image: linear-gradient(0deg, #004052, #005066, #00607a);
+  background: linear-gradient(
+    60deg,
+    #002029,
+    #00303d,
+    #004052,
+    #005066,
+    #00607a,
+    #005066,
+    #004052,
+    #00303d,
+    #002029
+  );
+  background-size: 1400% 1400%;
+
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -138,10 +154,59 @@ iframe {
   justify-content: center;
   align-items: center;
 }
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 90%;
+  }
+  50% {
+    background-position: 100% 11%;
+  }
+  100% {
+    background-position: 0% 90%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 90%;
+  }
+  50% {
+    background-position: 100% 11%;
+  }
+  100% {
+    background-position: 0% 90%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 90%;
+  }
+  50% {
+    background-position: 100% 11%;
+  }
+  100% {
+    background-position: 0% 90%;
+  }
+}
 
 .container-contact1 {
   width: 1163px;
-  background: #fff;
+  background: linear-gradient(
+    60deg,
+    #002029,
+    #00303d,
+    #004052,
+    #005066,
+    #00607a,
+    #005066,
+    #004052,
+    #00303d,
+    #002029
+  );
+  background-size: 1400% 1400%;
+
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
   border-radius: 10px;
   overflow: hidden;
 
@@ -177,7 +242,7 @@ iframe {
   display: block;
   font-family: Outfit, sans-serif;
   font-size: 24px;
-  color: #333333;
+  color: #f5f6ff;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 44px;
@@ -266,7 +331,8 @@ textarea.input1 + .shadow-input1 {
   min-width: 193px;
   height: 50px;
   border-radius: 25px;
-  background: #004052;
+  border: 2px solid #f5ffff;
+  background: transparent;
   font-family: Outfit, sans-serif;
   font-size: 15px;
   line-height: 1.5;
@@ -296,7 +362,7 @@ textarea.input1 + .shadow-input1 {
 }
 
 .contact1-form-btn:hover {
-  background: #333333;
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .contact1-form-btn:hover i {
