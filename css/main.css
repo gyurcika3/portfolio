@@ -23,7 +23,7 @@ a {
   font-family: Outfit, sans-serif;
   font-size: 14px;
   line-height: 1.7;
-  color: #666666;
+  color: #ffffff;
   margin: 0px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -37,7 +37,7 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  color: #004052;
+  color: #0d6efd;
 }
 
 /*---------------------------------------------*/
