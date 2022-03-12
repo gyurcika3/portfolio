@@ -256,7 +256,7 @@ ul li a:hover::before {
 }
 .btn-grad {
   margin: 10px;
-  padding: 10px 30px;
+  padding: 5px 22px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
@@ -323,7 +323,7 @@ ul li a:hover::before {
   animation: load 4s normal forwards;
   box-shadow: 0 10px 40px -10px #002029;
   border-radius: 100px;
-  background: linear-gradient(60deg, #00485c, #006683, #008eb6);
+  background: linear-gradient(60deg, #004457, #006683, #00799b);
   height: 15px;
   width: 0;
 }
