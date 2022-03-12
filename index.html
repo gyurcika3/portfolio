@@ -11,7 +11,13 @@
     <link href="fontawesome/css/all.min.css" rel="stylesheet" />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="loading.io/dist/loading-bar.css"
+    />
 
+    <link rel="stylesheet" href="mkscripts/css/mk_charts.css" />
     <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
     <link rel="stylesheet" type="text/css" href="css/util.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
@@ -415,62 +421,197 @@
 
       <div
         id="skills"
-        class="px-4 d-flex justify-content-around align-items-center text-center text-white"
+        class="d-flex justify-content-around align-items-center text-center"
       >
         <div class="container h-auto rounded" id="progress">
-          <div class="section-title">
-            <h2 class="pt-4">Skills</h2>
-            <br />
-            <hr />
-            <br />
-          </div>
-          <div class="row skills-content py-4 px-4">
-            <div class="col-lg-6" data-aos="zoom-in" data-aos-duration="800">
-              <div class="d-flex">
-                <h6 class="text-start w-50">HTML</h6>
-                <h6 class="text-end w-50"><i class="val">90%</i></h6>
-              </div>
-              <div class="progress2 mb-4">
-                <div class="progress-value2" style="width: 90%"></div>
-              </div>
-              <div class="d-flex">
-                <h6 class="text-start w-50">CSS</h6>
-                <h6 class="text-end w-50"><i class="val">75%</i></h6>
-              </div>
-              <div class="progress2 mb-4">
-                <div class="progress-value2" style="width: 75%"></div>
-              </div>
-              <div class="d-flex">
-                <h6 class="text-start w-50">Bootstrap</h6>
-                <h6 class="text-end w-50"><i class="val">75%</i></h6>
-              </div>
-              <div class="progress2 mb-4">
-                <div class="progress-value2" style="width: 75%"></div>
+          <div class="row skills-content py-4">
+            <div
+              class="col-lg-6 mx-auto"
+              id="myStory"
+              data-aos="slide-up"
+              data-aos-duration="800"
+            >
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2 class="pt-4">My Story</h2>
+                  <hr />
+
+                  <br />
+                  <p class="px-4">
+                    My coding experience started beggining of 2021 when I signed
+                    up for the Coding Traineeship at IT Carreer Switch. The year
+                    long Full-Stack Development course tought me a lot and made
+                    me confident that I have the skills and tools to start my
+                    career in programming. I worked on two major portfolio
+                    projects during this time which boosted my practical skills.
+                    I'm eager to learn, very motivated and always ready for new
+                    challenges.
+                  </p>
+                </div>
               </div>
             </div>
+          </div>
+          <div class="row skills-content py-4">
+            <div
+              class="col-lg-8 mx-auto"
+              id="mySkills"
+              data-aos="slide-up"
+              data-aos-duration="800"
+            >
+              <div class="row">
+                <div class="section-title">
+                  <h2 class="pt-4">Skills</h2>
+                  <hr />
 
-            <div class="col-lg-6" data-aos="zoom-in" data-aos-duration="800">
-              <div class="d-flex">
-                <h6 class="text-start w-50">JavaScript</h6>
-                <h6 class="text-end w-50"><i class="val">70%</i></h6>
-              </div>
-              <div class="progress2 mb-4">
-                <div class="progress-value2" style="width: 70%"></div>
-              </div>
+                  <br />
+                </div>
+                <div class="col-lg-6 mb-3">
+                  <!-- <div class="mb-4"> -->
+                  <!-- <div
+                      class="mkCharts"
+                      data-percent="90"
+                      data-color="#004052"
+                      data-size="110"
+                      data-stroke="4"
+                    ></div> -->
 
-              <div class="d-flex">
-                <h6 class="text-start w-50">PHP</h6>
-                <h6 class="text-end w-50"><i class="val">60%</i></h6>
-              </div>
-              <div class="progress2 mb-4">
-                <div class="progress-value2" style="width: 60%"></div>
-              </div>
-              <div class="d-flex">
-                <h6 class="text-start w-50">Photoshop</h6>
-                <h6 class="text-end w-50"><i class="val">45%</i></h6>
-              </div>
-              <div class="progress2 mb-4">
-                <div class="progress-value2" style="width: 45%"></div>
+                  <!-- <div
+                      class="ldBar label-center mx-auto"
+                      data-value="90"
+                      data-preset="circle"
+                    ></div>
+                    <b>HTML</b>
+                  </div>
+                  <div> -->
+                  <!-- <div
+                      class="mkCharts"
+                      data-percent="75"
+                      data-color="#004052"
+                      data-size="110"
+                      data-stroke="4"
+                    ></div>
+                    <b>CSS</b> -->
+                  <!-- <div
+                      class="ldBar label-center mx-auto"
+                      data-value="75"
+                      data-preset="circle"
+                    ></div>
+                    <b>CSS</b>
+                  </div> -->
+
+                  <div class="d-flex">
+                    <h6 class="text-start w-50">HTML</h6>
+                    <h6 class="text-end w-50"><i class="val">90%</i></h6>
+                  </div>
+                  <div class="progress2 mb-4">
+                    <div class="progress-value2" style="width: 90%"></div>
+                  </div>
+                  <div class="d-flex">
+                    <h6 class="text-start w-50">CSS</h6>
+                    <h6 class="text-end w-50"><i class="val">75%</i></h6>
+                  </div>
+                  <div class="progress2 mb-4">
+                    <div class="progress-value2" style="width: 75%"></div>
+                  </div>
+                  <div class="d-flex">
+                    <h6 class="text-start w-50">Bootstrap</h6>
+                    <h6 class="text-end w-50"><i class="val">75%</i></h6>
+                  </div>
+                  <div class="progress2 mb-4">
+                    <div class="progress-value2" style="width: 75%"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <!-- <div class="mb-4"> -->
+                  <!-- <div
+                      class="mkCharts"
+                      data-percent="75"
+                      data-color="#004052"
+                      data-size="110"
+                      data-stroke="4"
+                    ></div>
+                    <b>Bootstrap</b> -->
+                  <!-- <div
+                      class="ldBar label-center mx-auto"
+                      data-value="75"
+                      data-preset="circle"
+                    ></div>
+                    <b>Bootstrap</b>
+                  </div>
+                  <div> -->
+                  <!-- <div
+                      class="mkCharts"
+                      data-percent="65"
+                      data-color="#004052"
+                      data-size="110"
+                      data-stroke="4"
+                    ></div>
+                    <b>Javascript</b> -->
+                  <!-- <div
+                      class="ldBar label-center mx-auto"
+                      data-value="65"
+                      data-preset="circle"
+                    ></div>
+                    <b>Javascript</b>
+                  </div> -->
+                  <div class="d-flex">
+                    <h6 class="text-start w-50">JavaScript</h6>
+                    <h6 class="text-end w-50"><i class="val">70%</i></h6>
+                  </div>
+                  <div class="progress2 mb-4">
+                    <div class="progress-value2" style="width: 70%"></div>
+                  </div>
+
+                  <div class="d-flex">
+                    <h6 class="text-start w-50">PHP</h6>
+                    <h6 class="text-end w-50"><i class="val">60%</i></h6>
+                  </div>
+                  <div class="progress2 mb-4">
+                    <div class="progress-value2" style="width: 60%"></div>
+                  </div>
+                  <div class="d-flex">
+                    <h6 class="text-start w-50">Photoshop</h6>
+                    <h6 class="text-end w-50"><i class="val">45%</i></h6>
+                  </div>
+                  <div class="progress2 mb-4">
+                    <div class="progress-value2" style="width: 45%"></div>
+                  </div>
+                </div>
+                <!-- <div class="col-lg-4">
+                  <div class="mb-4"> -->
+                <!-- <div
+                      class="mkCharts"
+                      data-percent="55"
+                      data-color="#004052"
+                      data-size="110"
+                      data-stroke="4"
+                    ></div>
+                    <b>PHP</b> -->
+                <!-- <div
+                      class="ldBar label-center mx-auto"
+                      data-value="55"
+                      data-preset="circle"
+                    ></div>
+                    <b>PHP</b>
+                  </div>
+                  <div> -->
+                <!-- <div
+                      class="mkCharts"
+                      data-percent="45"
+                      data-color="#004052"
+                      data-size="110"
+                      data-stroke="4"
+                    ></div>
+                    <b>Photoshop</b> -->
+                <!-- <div
+                      class="ldBar label-center mx-auto"
+                      data-value="45"
+                      data-preset="circle"
+                    ></div>
+                    <b>Photoshop</b>
+                  </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -552,7 +693,11 @@
         </div>
       </div>
     </div>
-
+    <script
+      type="text/javascript"
+      src="loading.io/dist/loading-bar.js"
+    ></script>
+    <script src="mkscripts/js/mk_charts.js"></script>
     <script src="jquery/jquery-3.6.0.min.js"></script>
     <script src="bootstrap/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
