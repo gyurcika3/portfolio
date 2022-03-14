@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "blast-text": "^2.0.0",
-    "particles.js": "^2.0.0",
-    "progressbar.js": "^1.1.0",
-    "typed.js": "^2.0.12"
-  }
-}

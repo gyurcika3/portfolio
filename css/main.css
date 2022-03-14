@@ -188,7 +188,8 @@ iframe {
 }
 
 .container-contact1 {
-  width: 1163px;
+  width: 100vw;
+  height: 100vh;
   background: linear-gradient(
     60deg,
     #002029,
@@ -215,7 +216,7 @@ iframe {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 
   padding: 90px 130px 88px 148px;
